@@ -2,6 +2,7 @@
 /**
 * void binary_tree_delete - deletes the entire tree
 * @tree: tree to delete
+* Return: Void
 */
 void binary_tree_delete(binary_tree_t *tree)
 {
