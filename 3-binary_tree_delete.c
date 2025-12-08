@@ -1,4 +1,4 @@
-#include "binary_tree.h"
+#include "binary_trees.h"
 /**
 * void binary_tree_delete - deletes the entire tree
 * @tree: tree to delete
