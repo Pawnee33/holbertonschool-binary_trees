@@ -1,5 +1,10 @@
 #include "binary_trees.h"
 
+/**
+ * tree_height - Computes the maximum height of a tree/subtree
+ * @tree: The tree to compute
+ * Return: The maximum length of the tree.
+*/
 int tree_height(const binary_tree_t *tree)
 {
     int left = 0, right = 0;
@@ -18,6 +23,11 @@ int tree_height(const binary_tree_t *tree)
     return ((left >= right) ? left : right);
 }
 
+/**
+ * binary_tree_balance - Computes the balance factor of a tree
+ * @tree: The tree to compute
+ * Return: The balance factor.
+*/
 int binary_tree_balance(const binary_tree_t *tree)
 {
     if(!tree)
