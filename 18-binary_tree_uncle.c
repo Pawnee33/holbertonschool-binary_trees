@@ -11,6 +11,9 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node)
 	binary_tree_t *grandparent;
 	int is_parent_left = -1;
 
+	if (!node)
+		return (NULL);
+
 	if (!node->parent)
 		return (NULL);
 
